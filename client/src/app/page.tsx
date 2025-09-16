@@ -1,3 +1,4 @@
+import ProductList from "@/components/ProductList";
 import Image from "next/image";
 
 const Homepage = () => {
@@ -31,6 +32,8 @@ const Homepage = () => {
           {/* </div> */}
         </div>
       </div>
+
+      <ProductList/>
     </div>
   );
 };
